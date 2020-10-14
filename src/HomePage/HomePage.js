@@ -1,4 +1,5 @@
 import React from 'react';
+import PieChart from '../PieChart/PieChart';
 
 function HomePage() {
   return (
@@ -35,6 +36,7 @@ function HomePage() {
                 <h1>Chart</h1>
                 <p>
                     <canvas id="myChart" width="400" height="400"></canvas>
+                    <PieChart/>
                 </p>
             </article>
 
